@@ -76,9 +76,11 @@ def print_newsletter(number)
 
   print "SUBJECT: "
   format_subject
+  puts
 
   print "RECIPIENTS: "
   print_recipients
+  puts
 
   puts "\nBODY:"
   format_subject
