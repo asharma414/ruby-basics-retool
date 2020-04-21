@@ -86,7 +86,6 @@ def print_newsletter(number)
   format_subject
   articles = first_n_articles(number)
   print_many_articles(articles)
-  puts "Work hard, be nice, and have an epic week! //"
   puts format_footer(CAMPUS)
 end
 
